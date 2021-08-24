@@ -1,0 +1,187 @@
+/* Here are example using scss */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+html p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "hero-new, sans-serif";
+  font-weight: 300;
+  padding: 15px;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  font-size: 1.6rem;
+  text-align: center;
+}
+body > * {
+  margin: 2rem 0;
+}
+.sc-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sc-header .sc-title h1 {
+  font-family: hero-new, sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  margin: 0;
+}
+.sc-header .view-btns {
+  display: flex;
+}
+.gauge-section {
+  display: flex;
+  padding: 10px 20px;
+  background: #fff;
+  border-bottom: 2px solid #e3e3e3;
+}
+.graph_section {
+  display: flex;
+  flex-direction: column;
+  background: #fefefe;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.01);
+  border-radius: 5px;
+  padding: 25px 50px 50px 50px;
+}
+.stats {
+  padding: 10px 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  background: #fefefe;
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.01);
+  border-radius: 5px;
+}
+.stats #goal-header {
+  padding: 25px 10px;
+  margin: 0 auto;
+}
+.stats #avg-header {
+  margin: 0 auto;
+}
+.stats #top-goal {
+  margin: 0 auto;
+}
+.stats .goal-number {
+  background: #89b68b;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.stats .goal-number-warning {
+  background: #dace69;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.stats h3 {
+  font-family: hero-new, sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+}
+.stats .stat-blocks {
+  padding: 10px 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+}
+.stats .stat-block {
+  flex: 1;
+  border: 1px solid #eaeaea;
+  padding: 25px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stats .stat-block h3 {
+  font-family: hero-new, sans-serif;
+  font-weight: 300;
+  font-size: 22x;
+}
+.stats .stat-block .number-call-out {
+  font-family: hero-new, sans-serif;
+  font-weight: 500;
+  font-size: 18x;
+  display: block;
+  text-align: center;
+}
+.profile {
+  padding: 10px 20px;
+  background: #fff;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 2px solid #e3e3e3;
+  display: flex;
+  justify-content: flex-start;
+}
+.profile #employee_details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.profile #employee_image {
+  max-width: 200px;
+}
+.profile #employee_image .g__elm_img {
+  border-radius: 10px;
+}
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.filters .filters_left {
+  display: flex;
+}
+.filters .filters_right {
+  display: flex;
+  flex-direction: row;
+}
+.pipline-header-section {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.example {
+  display: flex;
+  justify-content: center;
+}
+.example-style,
+.example-lazy-load {
+  margin: 3rem 2rem;
+}
+.from-scss {
+  color: #0096ff;
+}
+.link {
+  color: #61dafb;
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+#lazy-load {
+  padding: 1rem 1.5rem;
+  border: 0;
+  border-radius: 10rem;
+  outline: none;
+}
